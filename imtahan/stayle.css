@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    
+}
+#alma{
+    background-position: 90% 100%;
+    background-repeat: no-repeat;
+    background-size: 650px auto; 
+     background-image: url(https://gentium.pixerex.com/wp-content/uploads/2019/01/hero_02.jpg);
+    height: 100vh;
+    background-color: black;
+    
+    
+}
+p{
+    color: rgb(255, 255, 255);
+    margin: 100px 0px;
+}
+#alma2{
+    border: 3px solid rgb(4, 135, 15);
+    background-color:rgb(4, 135, 15) ;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    margin: 10px 0px;
+}
+#alma3{
+    border: 3px solid rgb(4, 135, 15);
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    margin: 10px 0px;
+    
+}
+#alma3:hover{
+    border: 3px solid rgb(4, 135, 15);
+    background-color:rgb(4, 135, 15) ;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    
+}
+#alma4{
+    border: 3px solid rgb(4, 135, 15);
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    
+}
+#alma4:hover{
+    border: 3px solid rgb(4, 135, 15);
+    background-color:rgb(4, 135, 15) ;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    
+}
+.salam{
+    color: aliceblue;
+    border: 2px rgb(4, 135, 15) solid;
+    margin-top: 30px;
+    width: 110px;
+    height: 20px;
+    padding: 20px 30px;
+}
+.salam:hover{
+    border: 3px solid rgb(4, 135, 15);
+    background-color:rgb(4, 135, 15) ;
+    color: rgb(255, 255, 255);
+    width: 110px;
+    height: 20px;
+    
+}
+#alma0{
+    display:flex;
+    gap:15px;
+    flex-direction: column;
+    width: 100%;
+
+}
+@media screen and (min-width:800px){
+    #alma0{
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    }
+}
